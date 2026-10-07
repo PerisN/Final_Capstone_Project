@@ -2,9 +2,11 @@
 
 ### 1. Project Description
 
-This project focuses on developing an **intelligent insurance claims triage and severity prediction system**. **Claims triage** means sorting and prioritising claims based on their level of urgency or seriousness. For example, a straightforward, low-cost claim could be processed normally, while a complex or potentially high-cost claim could be prioritised for more detailed assessment.
+This project focuses on developing an **intelligent insurance claims triage and severity prediction system**.
 
-Severity prediction refers to estimating how costly or serious a claim is likely to become based on the information available when the claim is reported. For example, a claim involving a minor injury may require less attention than one involving a serious injury and potentially high compensation costs.
+**Claims triage** means sorting and prioritising claims based on their level of urgency or seriousness. For example, a straightforward, low-cost claim could be processed normally, while a complex or potentially high-cost claim could be prioritised for more detailed assessment.
+
+**Severity prediction** refers to estimating how costly or serious a claim is likely to become based on the information available when the claim is reported. For example, a claim involving a minor injury may require less attention than one involving a serious injury and potentially high compensation costs.
 
 The system will analyse information provided when a claim is reported, including the customer's details, accident information, work circumstances, initial cost estimate and the written description of the claim. It will then assess the likely severity of the claim and help determine which claims may require greater attention.
 
