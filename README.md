@@ -46,7 +46,7 @@ The objectives of this project are to:
 
 ### 6. Dataset Description
 
-The project will use the **DataRobot Insurance Claims Triage dataset**, which contains information about insurance claims and the circumstances surrounding each claim.
+The project will use the **DataRobot Insurance Claims Triage dataset**: https://s3.amazonaws.com/datarobot-doc-assets/DR_Demo_Statistical_Case_Estimates.csv, which contains information about insurance claims and the circumstances surrounding each claim.
 
 The dataset includes:
 - **Claim description** – a written description of the incident.
