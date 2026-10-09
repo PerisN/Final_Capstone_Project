@@ -126,23 +126,21 @@ The evaluation will consider:
 
 - **Matplotlib & Seaborn** – for exploratory data analysis and visualisation.
 
-- **Natural Language Processing (BERT)** – converts the written `ClaimDescription` into meaningful numerical representations that capture information from the claim narrative.
+- **Natural Language Processing (BERT)** – converts the written `ClaimDescription` into numerical representations that capture meaningful information from the claim narrative.
 
-- **Dimensionality Reduction (PCA)** – reduces the number of features while retaining the most important information, making the data easier to analyse and model.
+- **Dimensionality Reduction (PCA)** – reduces the number of features while retaining important information, potentially making modelling more manageable.
 
-- **Manifold Learning (UMAP, t-SNE)** – visualises patterns and relationships between claims in a lower-dimensional space, helping to identify whether claims with similar characteristics form distinct groups.
+- **Manifold Learning (UMAP, t-SNE)** – visualises patterns and relationships between claims in a lower-dimensional space to help explore similarities between claims.
 
-- **Clustering (K-Means, GMM, DBSCAN)** – groups claims based on similarities in their characteristics, which can help identify different claim profiles or levels of complexity.
+- **Clustering (K-Means, GMM, DBSCAN)** – groups claims based on similarities in their characteristics, helping investigate different claim profiles and patterns.
 
-- **Anomaly Detection (Isolation Forest)** – identifies unusual claims that differ substantially from typical claims and may require additional review during the triage process.
+- **Machine Learning (Random Forest, Gradient Boosting)** – predicts the likely financial cost of claims using structured information and text-based features.
 
-- **Machine Learning (Random Forest, Gradient Boosting)** – predicts the likely severity of claims using structured information and extracted text features.
+- **Deep Learning (Neural Network)** – provides an alternative approach to claim-cost prediction, allowing its performance to be compared with traditional machine learning models.
 
-- **Deep Learning (Neural Network)** – provides an advanced approach for predicting claim severity and allows its performance to be compared with traditional machine learning models.
+- **Model Explainability (SHAP)** – identifies which claim characteristics contribute to severity predictions, helping explain the model's decisions.
 
-- **Model Explainability (SHAP)** – identifies which claim characteristics contribute most to a model's severity prediction, helping claims handlers understand the reasoning behind predictions.
-
-- **Evaluation (MAE, RMSE, R²)** – measures how accurately the models predict claim severity and supports comparison between different modelling approaches.
+- **Model Evaluation (MAE, RMSE, R²)** – measures and compares how accurately the models predict claim costs.
 
 ### 12. Project Workflow
 
