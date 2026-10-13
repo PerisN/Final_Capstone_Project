@@ -126,7 +126,7 @@ The evaluation will consider:
 
 - **Matplotlib & Seaborn** – for exploratory data analysis and visualisation.
 
-- **Natural Language Processing (BERT)** – converts the written `ClaimDescription` into numerical representations that capture meaningful information from the claim narrative.
+- **Natural Language Processing (Keyword Extraction)** – identifies relevant keywords in `ClaimDescription`, such as injury types, accident mechanisms and affected body parts. These keywords help the model recognise patterns in claim descriptions that may be associated with higher or lower incurred costs, supporting the prioritisation of claims for further review.
 
 - **Dimensionality Reduction (PCA)** – reduces the number of features while retaining important information, potentially making modelling more manageable.
 
@@ -136,7 +136,7 @@ The evaluation will consider:
 
 - **Machine Learning (Random Forest, Gradient Boosting)** – predicts the likely financial cost of claims using structured information and text-based features.
 
-- **Deep Learning (Neural Network)** – provides an alternative approach to claim-cost prediction, allowing its performance to be compared with traditional machine learning models.
+- **Deep Learning (Multilayer Perceptron — MLP)** – uses a feedforward neural network to classify insurance claims into Low, Medium or High severity based on claim characteristics and extracted keywords. Its performance can be compared with traditional machine learning classifiers.
 
 - **Model Explainability (SHAP)** – identifies which claim characteristics contribute to severity predictions, helping explain the model's decisions.
 
