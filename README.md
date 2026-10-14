@@ -146,7 +146,7 @@ The evaluation will consider:
 
 **Insurance Claim Data**  
 ↓  
-**NLP (BERT or FinBERT)** – Extract meaningful information from claim descriptions  
+**NLP (Keyword extraction)** – Extract key word information from claim descriptions  
 ↓  
 **Feature Integration** – Combine text-based and structured claim information  
 ↓  
