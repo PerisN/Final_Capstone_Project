@@ -128,13 +128,13 @@ The evaluation will consider:
 
 - **Natural Language Processing (Keyword Extraction)** – identifies relevant keywords in `ClaimDescription`, such as injury types, accident mechanisms and affected body parts. These keywords help the model recognise patterns in claim descriptions that may be associated with higher or lower incurred costs, supporting the prioritisation of claims for further review.
 
-- **Dimensionality Reduction (PCA)** – reduces the number of features while retaining important information, potentially making modelling more manageable.
+- **Dimensionality Reduction (TruncatedSVD)** – reduces the number of features while retaining important information, potentially making modelling more manageable.
 
 - **Manifold Learning (UMAP, t-SNE)** – visualises patterns and relationships between claims in a lower-dimensional space to help explore similarities between claims.
 
 - **Clustering (K-Means, GMM, DBSCAN)** – groups claims based on similarities in their characteristics, helping investigate different claim profiles and patterns.
 
-- **Machine Learning (Random Forest, Gradient Boosting)** – predicts the likely financial cost of claims using structured information and text-based features.
+- **Machine Learning (Random Forest, XGBoost)** – for feature importance and severity classification and gradient boosting as a second tree-based classifier to compare against Random Forest.
 
 - **Deep Learning (Multilayer Perceptron — MLP)** – uses a feedforward neural network to classify insurance claims into Low, Medium or High severity based on claim characteristics and extracted keywords. Its performance can be compared with traditional machine learning classifiers.
 
@@ -152,7 +152,7 @@ The evaluation will consider:
 ↓  
 **Dimensionality Reduction & Manifold Learning** – Reduce and visualise the feature space  
 ↓  
-**Clustering & Anomaly Detection** – Identify claim patterns and unusual claims  
+**Clustering ** – Identify claim patterns and unusual claims  
 ↓  
 **Severity Prediction** – Predict the likely severity of each claim  
 ↓  
