@@ -138,9 +138,7 @@ The evaluation will consider:
 
 - **Deep Learning (Multilayer Perceptron — MLP)** – uses a feedforward neural network to classify insurance claims into Low, Medium or High severity based on claim characteristics and extracted keywords. Its performance can be compared with traditional machine learning classifiers.
 
-- **Model Explainability (SHAP)** – identifies which claim characteristics contribute to severity predictions, helping explain the model's decisions.
-
-- **Model Evaluation (MAE, RMSE, R²)** – measures and compares how accurately the models predict claim costs.
+- **Error analysis** - of the best performing classification model.
 
 ### 12. Project Workflow
 
