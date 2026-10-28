@@ -126,7 +126,7 @@ The evaluation will consider:
 
 - **Matplotlib & Seaborn** – for exploratory data analysis and visualisation.
 
-- **Natural Language Processing (Keyword Extraction)** – identifies relevant keywords in `ClaimDescription`, such as injury types, accident mechanisms and affected body parts. These keywords help the model recognise patterns in claim descriptions that may be associated with higher or lower incurred costs, supporting the prioritisation of claims for further review.
+- **Natural Language Processing (Keyword Extraction-TF-IDF)** – identifies relevant keywords in `ClaimDescription`, such as injury types, accident mechanisms and affected body parts. These keywords help the model recognise patterns in claim descriptions that may be associated with higher or lower incurred costs, supporting the prioritisation of claims for further review.
 
 - **Dimensionality Reduction (TruncatedSVD)** – reduces the number of features while retaining important information, potentially making modelling more manageable.
 
@@ -139,6 +139,8 @@ The evaluation will consider:
 - **Deep Learning (Multilayer Perceptron — MLP)** – uses a feedforward neural network to classify insurance claims into Low, Medium or High severity based on claim characteristics and extracted keywords. Its performance can be compared with traditional machine learning classifiers.
 
 - **Error analysis** - of the best performing classification model.
+
+- **Model Explainability** - used global SHAP to to summarize importance across the classes.
 
 ### 12. Project Workflow
 
